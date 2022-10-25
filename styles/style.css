@@ -1,0 +1,12 @@
+#header {
+width: 100%;
+height: 70px;
+padding: 0;
+margin: 0%;
+background-color: darkslateblue;
+z-index: 1001;
+position: sticky;
+}
+body{
+    background-color:black;
+}
