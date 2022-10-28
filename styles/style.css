@@ -104,9 +104,18 @@ html {
     border-right: 1px solid white;
   }
 
-  .main__section-one{
+  .main__section{
   width: 30rem;
+  margin: 0;
   text-align: center;
+  }
+
+  .main__section-one{
+    padding: 1rem;
+  }
+
+  .main__section-two{
+    padding: 1rem;
   }
 
   .article{
