@@ -32,8 +32,9 @@ html {
     padding: 0;
   }
   
-  h1,h2,h3,h4,h5,h6,p {
+  h2,h3,h4,h5,h6,p {
     color: black;
+    font-weight: 300;
   }
   
   img{
@@ -50,8 +51,6 @@ html {
 
   .flex {
   display: flex;
-  flex-direction: row;
-  
   }
 
   .header {
@@ -68,6 +67,7 @@ html {
       margin: 0;
       font-size: 24px;
       color: white;
+      cursor: pointer;
   }
 
   .header__nav{
@@ -110,9 +110,3 @@ html {
   text-align: center;
   padding: 0.5rem;
   }
-
-  .article {
-  text-align:justify;
-  padding: 0.3rem;
-  }
-
