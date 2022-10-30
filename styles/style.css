@@ -85,7 +85,7 @@ html {
   }
 
   .header__nav{
-    flex-wrap:nowrap;
+    flex-wrap: wrap;
   }
 
   .nav__list{
@@ -116,6 +116,10 @@ html {
     width: 1px;
     height: 1,4rem;
     border-right: 1px solid white;
+  }
+
+  .main__section {
+    width: 100%;
   }
 
   .main__section- {
