@@ -95,10 +95,10 @@ html {
     font-weight: 500;
     text-decoration: none;
     transition: 0,5s linear;
-    border-radius: 45%;
   }
 
   .nav__item:hover{
+    border-radius: 45%;
     color: black;
     background: whitesmoke;
   }
@@ -133,7 +133,8 @@ html {
   .footer {
     margin: 0 auto;
     background-color: black;
-    padding: 70px;
+    padding: 60px;
+    width: 100%;
   }
 
   .footer-col {
@@ -199,13 +200,13 @@ html {
     background-color: whitesmoke;
   }
 
-  @media(max-width: 767px) {
+  @media(max-width: 800px) {
     .footer-col {
       width: 50%;
       margin-bottom: 30px;
     }
   }
-  @media(max-width: 574px) {
+  @media(max-width: 600px) {
     .footer-col {
       width: 100%;
     }
