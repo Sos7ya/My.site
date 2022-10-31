@@ -120,13 +120,16 @@ html {
 
   .main__section {
     width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
   }
 
   .main__section- {
-  width:100%;
+  width:70%;
   margin: 0 auto;
-  text-align: center;
-  padding: 0.5rem;
+  text-align: justify;
+  padding: 1rem;
   }
 
   .footer {
@@ -145,6 +148,7 @@ html {
     text-transform: capitalize;
     margin-bottom: 35px;
     font-size: 500;
+    font-weight: 500;
     position: relative;
   }
 
