@@ -148,6 +148,10 @@ html {
 
   .btn {
     position: relative;
+  }
+
+  .dropdown__arrow {
+    width: 1rem;
     cursor: pointer;
   }
 
