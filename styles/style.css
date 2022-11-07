@@ -139,6 +139,19 @@ html {
     color: gray;
   }
 
+  .main__section-dropdown {
+  width: 100%;
+  }
+
+
+  .dropdown__content {
+  visibility: hidden;
+  }
+
+  .main__section-dropdown:hover .dropdown__content {
+  visibility: visible;
+  }
+
   .footer {
     margin: 0 auto;
     justify-content: center;
@@ -213,6 +226,10 @@ html {
   .footer-col .social-links a:hover {
     color: whitesmoke;
     background-color: whitesmoke;
+  }
+
+  .social-links__icon {
+    width: 60px;
   }
 
   @media(max-width: 800px) {
