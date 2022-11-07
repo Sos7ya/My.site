@@ -1,5 +1,5 @@
 function stateChange1() {
-    var obj = document.getElementById(`15`);
+    var obj = document.getElementById(`15`, `16`, `17`);
     obj.style.display =
         (obj.style.display == "none" ?
         "block" : "none");
