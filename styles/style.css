@@ -146,15 +146,15 @@ html {
   position: relative;
   }
 
+  .btn {
+    position: relative;
+    cursor: pointer;
+  }
 
   .dropdown__content {
-  visibility: hidden;
-  position: absolute;
+  position: relative;
   }
 
-  .main__section-dropdown:hover .dropdown__content {
-  visibility: visible;
-  }
 
   .main__section-six {
     margin: 0 auto;
