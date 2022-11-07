@@ -179,6 +179,7 @@ html {
 
   .footer-col p {
     color: white;
+    text-align: justify;
   }
 
   .footer-col h4 {
