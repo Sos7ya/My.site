@@ -98,11 +98,15 @@ html {
   }
 
   .nav__item:hover{
-    color: yellow;
+    color: wheat;
   }
 
   .header__link {
     padding-left: 80px;
+  }
+
+  .header__link:hover{
+    color: wheat;
   }
 
   .main__container {
@@ -122,14 +126,17 @@ html {
     margin: 0 auto;
     width: 90%;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: space-around;
   }
 
-  .main__section- {
-  width: 90%;
+  .article {
   text-align: justify;
-  padding: 1rem;
+  padding: 0.5rem;
+  }
+
+  .article a{
+    color: gray;
   }
 
   .footer {
