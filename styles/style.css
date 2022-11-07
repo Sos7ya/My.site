@@ -141,15 +141,23 @@ html {
 
   .main__section-dropdown {
   width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  position: relative;
   }
 
 
   .dropdown__content {
   visibility: hidden;
+  position: absolute;
   }
 
   .main__section-dropdown:hover .dropdown__content {
   visibility: visible;
+  }
+
+  .main__section-six {
+    margin: 0 auto;
   }
 
   .footer {
