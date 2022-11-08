@@ -139,9 +139,10 @@ html {
    }
 
    .main__section-slider {
-    width: 90%;
+    width: 100%;
     position: relative;
     margin: 0 auto;
+    padding: 0.5rem;
     height: 300px;
     justify-content: center;
     align-content: space-between;
