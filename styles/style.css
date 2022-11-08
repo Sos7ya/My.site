@@ -143,6 +143,8 @@ html {
     position: relative;
     margin: 0 auto;
     height: 300px;
+    justify-content: center;
+    align-content: space-between;
    }
 
    .main__section-slider .section__slide img {
