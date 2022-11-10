@@ -146,6 +146,7 @@ html {
     height: 300px;
     justify-content: center;
     align-content: space-between;
+    overflow: hidden;
    }
 
    .main__section-slider .section__slide img {
@@ -184,9 +185,6 @@ html {
     position: relative;
    }
 
-  .dropdown-btn {
-    position: relative;
-   }
 
   .dropdown__arrow {
     width: 1rem;
@@ -194,9 +192,13 @@ html {
    }
 
   .dropdown__content {
-    position: relative;
+    display: none;
    }
+  
 
+  .isActive {
+    display: block;
+  }
 
   .main__section-six {
     margin: 0 auto;
